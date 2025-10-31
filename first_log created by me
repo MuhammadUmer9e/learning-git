@@ -1,0 +1,35 @@
+[33mcommit 2b95b8253e412e68eda7275101ab4731e953d1ba[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: MuhammadUmer9e <muhammadumerbscs2d@gmail.com>
+Date:   Fri Oct 31 22:22:31 2025 +0500
+
+    this is my first commit hope you like it
+
+[33mcommit 8aa3d9463c31f94f26f28a609aa32512e1a4cba9[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: MuhammadUmer9e <136639314+MuhammadUmer9e@users.noreply.github.com>
+Date:   Fri Oct 31 11:19:08 2025 +0500
+
+    Improve README formatting with line breaks
+    
+    Added line breaks for better readability.
+
+[33mcommit 9242f6a5c191e3962a073fc378f80de5d04a1ab8[m
+Author: MuhammadUmer9e <136639314+MuhammadUmer9e@users.noreply.github.com>
+Date:   Fri Oct 31 11:16:48 2025 +0500
+
+    Fix typo in README description
+    
+    added "e" in complet
+
+[33mcommit 0fc19594cdd48b9077dbc50f1a7a48eeef416153[m
+Author: MuhammadUmer9e <136639314+MuhammadUmer9e@users.noreply.github.com>
+Date:   Fri Oct 31 11:13:09 2025 +0500
+
+    Update README to clarify purpose of repository
+    
+    changed 3rd word from "using" to "making".
+
+[33mcommit 37fce7e754139bd2fbb620a7fbfb87830552f017[m
+Author: MuhammadUmer9e <136639314+MuhammadUmer9e@users.noreply.github.com>
+Date:   Fri Oct 31 11:08:37 2025 +0500
+
+    Initial commit
