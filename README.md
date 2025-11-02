@@ -18,10 +18,20 @@ also if the file is tracked\added by git or not
 <br> 
 
 command : git add filename ("." for all files )
+<br>
 for staging the files for commiting. staging means the file is added to repos but not committed yet.  in git you first add then commit the files . commiting means that the changes are permanently added and cannot be restored like after adding. you can restore changes after adding before commiting in git by using the command "git restore filename"
 <br>
 
 command : git commit -m "useful message about changes" 
-This command is used for commiting the changed that you added/(staged) with "git add filename" command see above for more info about git add 
+<br>
+This command is used for commiting the changed that you added/(staged) with "git add filename" command <br>
+see above for more info about git add
 
+<br>
+command : git push origin main 
+This command is used for uploading local( on your pc ) repository to remote( means on github ) repository<br>
+This command will trigger the sign in using the git extension to connect to your github account and  authorize and connect to your account on github with software editor you are using.<br>
+The term origin means the github repository that is on our github account in which we will push our local repository. and origin is simply the name we can change it if we like it <br>
+And main is the first branch we work on when we create any repository initially.   
+<br>
 
