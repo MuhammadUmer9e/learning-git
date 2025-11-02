@@ -31,7 +31,12 @@ see above for more info about git add
 command : git push origin main 
 This command is used for uploading local( on your pc ) repository to remote( means on github ) repository<br>
 This command will trigger the sign in using the git extension to connect to your github account and  authorize and connect to your account on github with software editor you are using.<br>
-The term origin means the github repository that is on our github account in which we will push our local repository. and origin is simply the name we can change it if we like it <br>
+The term origin means the github repository that is on our github account in which we will push our local repository. and origin is by default we cannot change it  <br>
 And main is the first branch we work on when we create any repository initially.   
 <br>
+command : git init 
+This command is used to create a new respository in your pc locally.<br>
+for this should create a new folder and in that folder you enter this command and it will create a empty repository there see message that it gives when you execute this command <br>
+
+
 
