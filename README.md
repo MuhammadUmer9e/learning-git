@@ -64,9 +64,14 @@ And main is the first branch we work on when we create any repository initially.
 command : git init 
 <br>This command is used to create a new respository in your pc locally.<br>
 for this should create a new folder and in that folder you enter this command and it will create a empty repository there see message that it gives when you execute this command. <br>
-for publishing this repo to github we need to create a empty respository on github  <br><br>
+for publishing this repo to github we need to create a empty respository on github, then we can link them by the following command  <br><br>
 
+command : git remote -v 
+<br>This command tells which links are associated with your repo on github <br>
+for example default for all is origin, also you can create new by using the next command
+
+<br><br>
 command : git remote add origin link
-<br>This command connects local repo to remote repo of same name with link being the remote repo address on github, origin changing try 
+<br>This command connects local repo to remote repo of same name with link being the remote repo address on github, dont know much about origin yet , link is the address which is of same repo you made already on github for conneting with your local repo <br><br>
 
 
