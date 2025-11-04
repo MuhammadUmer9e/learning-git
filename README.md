@@ -59,7 +59,9 @@ command : git push origin main
 This command is used for uploading local( on your pc ) repository to remote( means on github ) repository<br>
 This command will trigger the sign in using the git extension to connect to your github account and  authorize and connect to your account on github with software editor you are using.<br>
 The term origin means the github repository that is on our github account in which we will push our local repository. and origin is by default we cannot change it  <br>
-And main is the first branch we work on when we create any repository initially.   
+And main is the first branch we work on when we create any repository initially.  <br>
+add a option "-u" after push to publish all changes to the origin main branch, means we want to push all code to the origin main branch.
+
 <br><br>
 command : git init 
 <br>This command is used to create a new respository in your pc locally.<br>
@@ -73,5 +75,13 @@ for example default for all is origin, also you can create new by using the next
 <br><br>
 command : git remote add origin link
 <br>This command connects local repo to remote repo of same name with link being the remote repo address on github, dont know much about origin yet , link is the address which is of same repo you made already on github for conneting with your local repo <br><br>
+
+command : git branch 
+<br>Used to check in which branch are you working. each repo has a main branch where all code merged from different other branches branches. Each new repo starts with a main branch as its only branch<br><br>
+
+command : git branch -M _new_branch_name
+<br>Used to rename current branch, with a new name.
+
+
 
 
