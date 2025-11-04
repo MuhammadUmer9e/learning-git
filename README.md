@@ -88,7 +88,8 @@ command : git checkout _branch_name
 
 
 command : git checkout -b _New_branch_name 
-<br>Used to create a new branch. 
+<br>Used to create a new branch. You also have to push it to remote to take effect by the command <br>
+git push origin _New_branch_name
 
 command : git checkout -d _branch_name
 <br>Used to delete a branch, You have to navigate some other branch to delete it, can't delete it if you are currently in that branch. 
