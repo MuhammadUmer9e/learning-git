@@ -60,13 +60,13 @@ This command is used for uploading local( on your pc ) repository to remote( mea
 This command will trigger the sign in using the git extension to connect to your github account and  authorize and connect to your account on github with software editor you are using.<br>
 The term origin means the github repository that is on our github account in which we will push our local repository. and origin is by default we cannot change it  <br>
 And main is the first branch we work on when we create any repository initially.  <br>
-add a option "-u" after push to publish all changes to the origin main branch, means we want to push all code to the origin main branch.
+add a option "-u" after push to publish all changes to the origin main branch we dont have to use "git push origin main" each time to push if we use this option we will only need to use "git push" , means we want to push all code to the origin main branch always.<br> 
 
 <br><br>
 command : git init 
 <br>This command is used to create a new respository in your pc locally.<br>
 for this should create a new folder and in that folder you enter this command and it will create a empty repository there see message that it gives when you execute this command. <br>
-for publishing this repo to github we need to create a empty respository on github, then we can link them by the following command  <br><br>
+for publishing this repo to github we need to create a empty respository on github, then we can link them by the following command, however we dont use this command often as it is easier to create a repository on github and clone it locally <br><br>
 
 command : git remote -v 
 <br>This command tells which links are associated with your repo on github <br>
@@ -80,8 +80,29 @@ command : git branch
 <br>Used to check in which branch are you working. each repo has a main branch where all code merged from different other branches branches. Each new repo starts with a main branch as its only branch<br><br>
 
 command : git branch -M _new_branch_name
-<br>Used to rename current branch, with a new name.
+<br>Used to rename current branch, with a new name.<br><br><br>
 
+
+command : git checkout _branch_name
+<br>Used to navigate(see) to some other branch<br><br><br>
+
+
+command : git checkout -b _New_branch_name 
+<br>Used to create a new branch. 
+
+command : git checkout -d _branch_name
+<br>Used to delete a branch, You have to navigate some other branch to delete it, can't delete it if you are currently in that branch. 
+
+<b><br>
+WORK FLOW: 
+generally our work flow is as follows 
+<br> 1. Making a respository on github
+<br> 2. Cloning it from our local git bash
+<br> 3. Make changes in local clone i.e adding/removing files,code
+<br> 4. Adding changes in local clone using "git add filename"
+<br> 5. commiting changes with useful message about change
+<br> 6. pushing to remote github repository
+<br><br>
 
 
 
