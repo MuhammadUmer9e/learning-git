@@ -60,7 +60,7 @@ This command is used for uploading local( on your pc ) repository to remote( mea
 This command will trigger the sign in using the git extension to connect to your github account and  authorize and connect to your account on github with software editor you are using.<br>
 The term origin means the github repository that is on our github account in which we will push our local repository. and origin is by default we cannot change it  <br>
 And main is the first branch we work on when we create any repository initially.  <br>
-add a option "-u" after push to publish all changes to the origin main branch we dont have to use "git push origin main" each time to push if we use this option we will only need to use "git push" , means we want to push all code to the origin main branch always.<br> 
+add a option "-u" after push to publish all changes to the origin main branch we dont have to use "git push origin main" each time to push if we use this option we will only need to use "git push" , means we want to push all code to the origin main branch always. however when we want to create or push to another branch we will need to type "git push origin branch_name to create or push to the respective branch on remote repository <br> 
 
 <br><br>
 command : git init 
