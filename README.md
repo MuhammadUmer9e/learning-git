@@ -83,5 +83,3 @@ command : git branch -M _new_branch_name
 <br>Used to rename current branch, with a new name.
 
 
-
-
