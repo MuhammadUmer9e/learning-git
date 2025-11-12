@@ -105,5 +105,10 @@ generally our work flow is as follows
 <br> 6. pushing to remote github repository
 <br><br>
 
+command: git diff Other_branch_name
+<br>This command gives complete comparison of current branch with respective other branch<br>
+the changes with "+" means that they are in the current branch but not in other branch and "-" means that 
+these changes are in found in other branch but are not in this branch.
+<bn><br>
 
 
