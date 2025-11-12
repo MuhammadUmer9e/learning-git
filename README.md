@@ -83,7 +83,7 @@ command : git branch -M _new_branch_name
 <br>Used to rename current branch, with a new name.<br><br><br>
 
 
-command : git checkout _branch_name
+command : git checkout _branch_name_selection
 <br>Used to navigate(see) to some other branch<br><br><br>
 
 
