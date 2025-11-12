@@ -111,4 +111,5 @@ the changes with "+" means that they are in the current branch but not in other 
 these changes are in found in other branch but are not in this branch.
 <bn><br>
 
-
+command git merge Other_branch_name
+<br>This command is used to merge current branch with other branch.
