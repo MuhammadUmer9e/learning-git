@@ -6,18 +6,23 @@ touch .gitignore
 2. Add entries to the .gitignore file:
 You can add lines to the .gitignore file to specify files or patterns to ignore. To ignore a specific file.
 Code
-
     echo "filename.ext" >> .gitignore
-Replace filename.ext with the actual name of the file you want to ignore. To ignore an entire directory.
-Code
+Replace filename.ext with the actual name of the file you want to ignore along with its extension (ext, like .txt .pdf .bat ).
 
-    echo "directoryname/" >> .gitignore
+
+To ignore an entire directory.
+Code
+echo "directoryname/" >> .gitignore
+
 Replace directoryname/ with the name of the directory. The trailing slash is important to indicate it's a directory.
+
+
 To ignore files with a specific extension:
 Code
-
     echo "*.log" >> .gitignore
 This example ignores all files ending with .log. The * acts as a wildcard.
+
+
 To ignore files in a specific directory:
 Code
 
